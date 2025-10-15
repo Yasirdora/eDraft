@@ -1,0 +1,6 @@
+# Code Director's working files — checkpoints, run records, baselines.
+# They are local working state and never belong in a public repository.
+.codedirector/
+
+# macOS
+.DS_Store
