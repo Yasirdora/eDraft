@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<FinalDraft DocumentType="Script" Template="No" Version="5">
+
+  <Content>
+    <Paragraph Number="1" Type="Scene Heading">
+      <Text>INT. PRINT SHOP - NIGHT</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>A single press thumps in the dark. INES (60s), ink to the elbows, feeds it one sheet at a time.</Text>
+    </Paragraph>
+    <Paragraph Number="2" Type="Scene Heading">
+      <Text>OMITTED</Text>
+      <OmittedScene>
+        <Paragraph Type="Scene Heading">
+          <SceneProperties Length="1/8" Page="1" Title=""/>
+          <Text>EXT. HARBOUR ROAD - NIGHT</Text>
+        </Paragraph>
+        <Paragraph Type="Action">
+          <Text>THEO (20s) runs through the rain, a padded envelope held under his coat.</Text>
+        </Paragraph>
+      </OmittedScene>
+    </Paragraph>
+    <Paragraph Number="3" Type="Scene Heading">
+      <Text>INT. PRINT SHOP - CONTINUOUS</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>The door opens. Theo stands in it, soaked, holding the envelope.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>THEO</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>You said midnight.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>INES</Text>
+    </Paragraph>
+    <Paragraph Type="Parenthetical">
+      <Text>(not looking up)</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>I said before midnight.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>She stops the press and holds out her hand. He doesn't move.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>THEO</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>It's the only copy.</Text>
+    </Paragraph>
+    <Paragraph Type="Character">
+      <Text>INES</Text>
+    </Paragraph>
+    <Paragraph Type="Dialogue">
+      <Text>Then you'll want it back.</Text>
+    </Paragraph>
+    <Paragraph Type="Action">
+      <Text>He hands it over.</Text>
+    </Paragraph>
+    <Paragraph Type="Transition">
+      <Text>FADE OUT.</Text>
+    </Paragraph>
+  </Content>
+
+  <Characters>
+    <Character>INES</Character>
+    <Character>THEO</Character>
+  </Characters>
+
+  <ScriptNotes>
+    <ScriptNote Id="1" Name="The handover" Range="365,378" Type="Notes" WriterName="Editor">
+      <Paragraph>
+        <Text>Keep this plain. The weight is in the handover, not the line.</Text>
+      </Paragraph>
+    </ScriptNote>
+  </ScriptNotes>
+
+</FinalDraft>
