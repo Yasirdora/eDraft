@@ -1,0 +1,45 @@
+name: Checks
+
+# Two checks, both of which guard something a reader would notice and a
+# maintainer would not: a relative link that resolves to nothing, and a YAML
+# file that GitHub's own tooling has to parse (the issue forms, the dependabot
+# config, this workflow). A typo in an issue form breaks it silently — GitHub
+# tells the maintainer, not the person filing the report.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository:
+    name: Links and YAML
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+
+      - name: Every relative link resolves
+        run: |
+          node -e "const fs=require('fs'),path=require('path');const skip=new Set(['.git','.codedirector']);const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?(skip.has(e.name)?[]:walk(path.join(d,e.name))):[path.join(d,e.name)]);let bad=0,n=0;for(const f of walk('.').filter(x=>x.endsWith('.md'))){n++;const s=fs.readFileSync(f,'utf8');for(const m of s.matchAll(/\]\(([^)]+)\)/g)){const l=m[1].split('#')[0];if(!l||/^[a-z]+:/i.test(l))continue;const t=path.join(path.dirname(f),l);if(!fs.existsSync(t)){console.log('BROKEN',f,'->',l);bad++}}}console.log(bad?bad+' broken relative link(s)':n+' markdown files, all relative links resolve');process.exit(bad?1:0)"
+
+      - name: Every YAML file parses
+        run: |
+          ruby -ryaml -e '
+            files = Dir.glob(".github/**/*.yml") + Dir.glob("*.yml")
+            bad = 0
+            files.sort.each do |f|
+              begin
+                YAML.load_file(f)
+                puts "ok   #{f}"
+              rescue => e
+                puts "FAIL #{f}: #{e.message}"
+                bad += 1
+              end
+            end
+            exit(bad.zero? ? 0 : 1)
+          '

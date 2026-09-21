@@ -1,0 +1,58 @@
+name: Idea or request
+description: Suggest something eDraft should do — or say what it should not.
+title: "[Idea] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The most useful suggestions describe the problem rather than the feature,
+        and say what you do today instead.
+
+        Saying that something should *not* be built is equally welcome.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The task, not the solution. What are you actually trying to get done?
+    validations:
+      required: true
+
+  - type: textarea
+    id: today
+    attributes:
+      label: What do you do today instead?
+      description: How you work around it now, or which tool you use for it.
+    validations:
+      required: false
+
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would help?
+      description: Your suggestion, if you have one in mind.
+    validations:
+      required: false
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Where does this belong?
+      options:
+        - Writing
+        - Files and interchange
+        - Production data — numbers, revisions, omissions
+        - Navigation and outline
+        - Sharing and export
+        - Not sure
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have searched the existing issues and this is not already suggested.
+          required: true

@@ -1,0 +1,68 @@
+name: Bug report
+description: Something is wrong — with eDraft, with these documents, or with the example files.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this. The more precisely you can say
+        what you did and what happened, the faster it can be dealt with.
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: What is this about?
+      options:
+        - The application
+        - The documentation in this repository
+        - The example files
+        - Something else
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version and platform
+      description: Which build, and on what — macOS 26, iPadOS 26, the web, the Chrome extension?
+      placeholder: "e.g. 0.1 build 42, macOS 26.1"
+    validations:
+      required: false
+
+  - type: textarea
+    id: happened
+    attributes:
+      label: What happened?
+      description: Describe what you saw. If a file was involved, say which format it was and where it came from — a Final Draft document and a Fountain file can behave differently.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: If you can reproduce it, the shortest path there is the most useful thing in this report.
+      placeholder: |
+        1.
+        2.
+        3.
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Before you submit
+      options:
+        - label: I have searched the existing issues and this is not already reported.
+          required: true
+        - label: This is not a security issue. (Those go privately to edraft@ysr.design — see SECURITY.md.)
+          required: true
