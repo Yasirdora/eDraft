@@ -31,7 +31,7 @@ Items move up this page only when they are demonstrable.
 
 | Status | Platforms |
 |---|---|
-| On the App Store | macOS |
+| On the App Store (preview) | macOS |
 | In development | iPadOS, iOS, Web, Chrome extension |
 | Planned | Windows, Linux, Android |
 
