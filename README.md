@@ -18,6 +18,13 @@
   <img src="media/ui.png" width="900" alt="The eDraft window on macOS: the screenplay page, with the scene navigator beside it, showing demo-scene.fountain">
 </p>
 
+## Get eDraft
+
+[eDraft](https://apps.apple.com/us/app/edraft/id6816992261) is on the App Store
+for iPhone and Mac, as one app. It is free, no account is required, iPhone
+version 1.0 was approved by Apple on 15 October 2026, and the Mac version
+(1.0.1) has been available since 10 October 2026.
+
 ## What eDraft is
 
 A screenplay is not only writing. Once a production starts it becomes a shared
