@@ -76,8 +76,8 @@ between eDraft and other software should arrive intact in both directions.
 
 | Status | Platforms |
 |---|---|
-| On the App Store (preview) | [macOS](https://apps.apple.com/app/edraft/id6816992261) |
-| In development | iPadOS, iOS, Web, Chrome extension |
+| On the App Store (preview) | [iPhone and Mac](https://apps.apple.com/app/edraft/id6816992261) |
+| In development | iPadOS, Apple Watch, Web, Chrome extension |
 | Planned | Windows, Linux, Android |
 
 See the [roadmap](docs/roadmap.md) for current and planned work.
