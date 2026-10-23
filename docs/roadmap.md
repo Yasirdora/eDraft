@@ -26,6 +26,11 @@ Items move up this page only when they are demonstrable.
   commands that issue them.
 - The native document format, for work that does not originate as a Final
   Draft file.
+- Reading paper scripts back in: measuring how well a scanned or photographed
+  page comes back as an editable screenplay, with every scene heading, name and
+  line of dialogue in its place, and improving it against those measurements.
+  The method, the invented test pages and the results will be published here
+  when the work lands.
 
 ## Platforms
 
