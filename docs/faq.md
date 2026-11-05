@@ -2,9 +2,12 @@
 
 ### Is eDraft free?
 
-Yes. eDraft is free on the [App Store](https://apps.apple.com/app/edraft/id6816992261),
-for iPhone and Mac in one download. There are no in-app purchases and no
-account.
+Free (preview). eDraft is on the
+[App Store](https://apps.apple.com/app/edraft/id6816992261), for iPhone and Mac
+in one download. There are no in-app purchases and no account.
+
+A small fee may come later, to sustain the app. eDraft will stay free for
+education.
 
 ### Which devices does it run on?
 

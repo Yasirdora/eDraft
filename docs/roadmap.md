@@ -41,7 +41,7 @@ Items move up this page only when they work in a released version.
 
 | Status | Platforms |
 |---|---|
-| On the App Store | iPhone (iOS 26 or later) and Mac (macOS 26 or later), one free download |
+| On the App Store | iPhone (iOS 26 or later) and Mac (macOS 26 or later), one free (preview) download |
 | Planned | iPad |
 
 ## Planned

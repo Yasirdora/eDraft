@@ -1,8 +1,9 @@
 # Changelog
 
 Notable changes to eDraft are recorded in this file, in the shape described by
-[Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/). eDraft is one free
-App Store download for iPhone and Mac; each release says which of the two it reached.
+[Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/). eDraft is one App Store
+download for iPhone and Mac, free (preview); each release says which of the two it
+reached.
 No release so far has supported Word (`.docx`) files; support is planned.
 
 ## 2.0 - 2026-11-04 (iPhone and Mac)

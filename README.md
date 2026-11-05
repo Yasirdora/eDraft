@@ -5,7 +5,7 @@
 <h1 align="center">eDraft</h1>
 
 <p align="center">
-  A free screenwriting app for iPhone and Mac.<br>
+  A free (preview) screenwriting app for iPhone and Mac.<br>
   <em>No account. No eDraft server. Your scripts are files on your devices or in your own iCloud Drive.</em>
 </p>
 
@@ -39,9 +39,10 @@ refer to the same part of a script. eDraft is built to keep them. When it saves
 a Final Draft file, it rewrites only the paragraphs you changed; everything else
 in the file, including data eDraft has no screen for, is written back as it was.
 
-eDraft 2.0 is free on the App Store. One download gives you the iPhone and the
-Mac app. Version 2.0 adds German and Ideas, a way to record a thought and place
-it in your script later.
+eDraft 2.0 is free (preview) on the App Store; see the
+[FAQ](docs/faq.md#is-edraft-free). One download gives you the iPhone and the Mac
+app. Version 2.0 adds German and Ideas, a way to record a thought and place it
+in your script later.
 
 ## 2. Key features
 
@@ -80,7 +81,7 @@ The [Help pages](https://edraft.xyz/help) explain each feature.
 
 | | |
 |---|---|
-| **Price** | Free |
+| **Price** | Free (preview) |
 | **Platforms** | iPhone and Mac, one App Store download |
 | **Version** | 2.0 (2026-11-04) |
 | **Requires** | iOS 26 or later · macOS 26 or later |
