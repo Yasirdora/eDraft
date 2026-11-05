@@ -5,109 +5,116 @@
 <h1 align="center">eDraft</h1>
 
 <p align="center">
-  A screenwriting application that keeps the script on the writer's machine.<br>
-  <em>No account. No eDraft server. No connection needed to write, open or save.</em>
+  A free screenwriting app for iPhone and Mac.<br>
+  <em>No account. No eDraft server. Your scripts are files on your devices or in your own iCloud Drive.</em>
 </p>
 
 <p align="center">
-  <a href="https://apps.apple.com/app/edraft/id6816992261">Download on the App Store</a> ·
-  <a href="https://edraft.xyz">edraft.xyz</a>
+  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="iPhone 2.0" src="media/badges/iphone-2.0.svg"></a>
+  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="Mac 2.0" src="media/badges/mac-2.0.svg"></a>
+  <img alt="Requires iOS 26 or macOS 26" src="media/badges/requires.svg">
+  <img alt="Languages: English and German" src="media/badges/languages.svg">
+  <a href="LICENSE"><img alt="Licence: proprietary" src="media/badges/licence.svg"></a>
+</p>
+
+<p align="center">
+  <a href="https://apps.apple.com/app/edraft/id6816992261">App Store</a> ·
+  <a href="https://edraft.xyz">edraft.xyz</a> ·
+  <a href="https://edraft.xyz/help">Help</a> ·
+  <a href="https://edraft.xyz/privacy">Privacy</a>
 </p>
 
 <p align="center">
   <img src="media/ui.png" width="900" alt="The eDraft window on macOS: the screenplay page, with the scene navigator beside it, showing demo-scene.fountain">
 </p>
 
-## Get eDraft
+## 1. Introduction
 
-[eDraft](https://apps.apple.com/us/app/edraft/id6816992261) is on the App Store
-for iPhone and Mac, as one app. It is free, no account is required, iPhone
-version 1.0 was approved by Apple on 15 October 2026, and the Mac version
-(1.0.1) has been available since 10 October 2026.
+eDraft formats your screenplay as you type. It opens and saves Final Draft and
+Fountain files, so a script can move between eDraft and other screenwriting
+software.
 
-## What eDraft is
+During production, scene numbers, page numbers and revision colours let everyone
+refer to the same part of a script. eDraft is built to keep them. When it saves
+a Final Draft file, it rewrites only the paragraphs you changed; everything else
+in the file, including data eDraft has no screen for, is written back as it was.
 
-A screenplay is not only writing. Once a production starts it becomes a shared
-document with addresses in it — scene numbers, page numbers, revision colours —
-and those addresses are what the rest of the department works from.
+eDraft 2.0 is free on the App Store. One download gives you the iPhone and the
+Mac app. Version 2.0 adds German and Ideas, a way to record a thought and place
+it in your script later.
 
-Most tools lose the parts of a file they cannot model. eDraft does not. Opening
-a file and saving it without edits returns the original bytes; editing one line
-changes that line and leaves everything else alone, including production data
-the application has no interface for yet.
+## 2. Key features
 
-The [product overview](docs/product-overview.md) sets out the problem and the
-approach in full.
+- **Final Draft and Fountain, both ways.** Open, edit and save `.fdx` and
+  Fountain files in their own format.
+- **Notes on a single word.** Select a word or a phrase and add a note. The note
+  stays on those words as you write, and it is kept in eDraft, Fountain and Final
+  Draft files.
+- **Ideas.** On iPhone, tap the microphone in the library and speak. eDraft saves
+  the recording first. Then, if your iPhone has a speech model for your language,
+  it writes down the words. Later, place the idea in a script as a note, action,
+  dialogue or a new scene, on the iPhone or on the Mac (View > Ideas). Ideas
+  reach the Mac through your own iCloud. You can also ask Siri: "Add an idea in
+  eDraft".
+- **German.** When your iPhone or Mac is set to German, menus, windows and
+  messages are in German (the Mac's Help is still in English). INNEN. and
+  AUSSEN. start a scene heading, and the writing suggestions offer them. An
+  eDraft script can print (MEHR) and (FORTS.) instead of (MORE) and (CONT'D). A
+  new installation in a German-speaking region (Germany, Austria, Switzerland,
+  Liechtenstein, Luxembourg) starts on A4 paper.
+- **Revisions.** Mark a draft when you send your script out. From then on, an
+  asterisk marks each changed line, on screen, in the PDF and in print. Revision
+  colours follow the order used in production: after Goldenrod come Buff, Salmon
+  and Cherry.
 
----
+## 3. Get started
 
-## What it does
+1. Download eDraft from the [App Store](https://apps.apple.com/app/edraft/id6816992261).
+2. Open the [example scene](examples/demo-scene.fdx) from this repository, or
+   start a new screenplay.
+3. Write, then export a PDF or save as Final Draft or Fountain.
 
-- **Writing** — A screenplay editor that formats as you type: scene headings,
-  action, character cues, dialogue, parentheticals, transitions.
-- **Local files** — Scripts stay ordinary files on your machine, in formats
-  other software can open.
-- **Interchange** — Reads and writes the formats used in screenwriting and
-  production, including Final Draft documents and Fountain, with import from
-  common word-processor and plain-text sources.
-- **Notes** — Notes stay attached to the text they refer to, and survive a round
-  trip through supported software.
-- **Production data** — Scene numbering, revisions and omitted scenes are
-  production concepts the application knows about, so they survive editing and
-  interchange.
+The [Help pages](https://edraft.xyz/help) explain each feature.
 
----
+## 4. At a glance
 
-## Formats
-
-| Direction | Formats |
+| | |
 |---|---|
-| Write and read | Final Draft documents (`.fdx`), Fountain, eDraft's own document format |
-| Export | PDF, Final Draft, Fountain, Word (`.docx`), plain text |
-| Import | Final Draft, Fountain, Word (`.docx`), plain text, PDF produced by eDraft |
-| Read back | A PDF eDraft produced carries its script with it, and reopens exactly |
+| **Price** | Free |
+| **Platforms** | iPhone and Mac, one App Store download |
+| **Version** | 2.0 (2026-11-04) |
+| **Requires** | iOS 26 or later · macOS 26 or later |
+| **Languages** | English, German |
+| **Account** | None |
+| **Where scripts live** | Files on your devices, or in your own iCloud Drive |
+| **Open and save** | Final Draft (`.fdx`), Fountain, plain text, eDraft's own document (`.draft`) |
+| **Export** | PDF, Final Draft, Fountain, plain text; on iPhone also an eDraft document and rich text (RTF) |
+| **On iPhone only** | Turn a PDF or a photo of a printed page into a new script (the text is read from the page) |
+| **Not yet supported** | Word (`.docx`) files — planned |
 
-Interchange is a design requirement rather than an export menu: a script passing
-between eDraft and other software should arrive intact in both directions.
+## 5. Verification notes
 
----
-
-## Platforms
-
-| Status | Platforms |
+| What | Result |
 |---|---|
-| On the App Store (preview) | [iPhone and Mac](https://apps.apple.com/app/edraft/id6816992261) |
-| In development | iPadOS, Apple Watch, Web, Chrome extension |
-| Planned | Windows, Linux, Android |
+| Interface strings with a German translation | 911 of 911 (counted) ¹ |
+| Swift tests in the app's code | 3,329 in 295 files (counted, not run for this page) ² |
+| The example `.fdx`, opened and saved without edits | Same file, byte for byte: 2,528 bytes in, 2,528 bytes out ³ |
 
-See the [roadmap](docs/roadmap.md) for current and planned work.
+¹ Counted in the string catalogs of the code that shipped as 2.0, Siri phrases
+included. The Mac's Help is still in English.<br>
+² XCTest methods and Swift Testing functions in the code that shipped as 2.0.<br>
+³ Checked with the code that shipped as 2.0, through the open-and-save path the
+app uses. You can check it yourself: see *Example*.
 
----
+## 6. Example
 
-## Getting eDraft
+The [`examples/`](examples) folder holds a short original scene in two formats:
 
-**[eDraft for macOS is on the App Store as a preview](https://apps.apple.com/app/edraft/id6816992261)**,
-and it is free. It requires macOS 26 or later.
-
-The other platforms are in development, and the application is not distributed
-from this repository. [edraft.xyz](https://edraft.xyz) is the product page.
-
-Screenwriting professionals, educators, researchers and developers interested in
-a research licence or in collaborating are welcome to get in touch:
-[edraft@ysr.design](mailto:edraft@ysr.design).
-
----
-
-## Example
-
-The [`examples/`](examples) directory holds a short original scene in two
-formats:
-
-- [`demo-scene.fdx`](examples/demo-scene.fdx) — Final Draft format, including a
-  note and an omitted scene.
+- [`demo-scene.fdx`](examples/demo-scene.fdx) — Final Draft format, with a note
+  and an omitted scene.
 - [`demo-scene.fountain`](examples/demo-scene.fountain) — the same scene in
-  Fountain. Fountain has no equivalent representation for an omitted scene, so
-  scene 2 is absent while the numbering keeps the gap.
+  Fountain. Fountain has no way to mark an omitted scene, so scene 2 is absent
+  and the numbering keeps the gap (1, 3).
 
 Both files, as they stand in this repository:
 
@@ -116,81 +123,51 @@ Both files, as they stand in this repository:
 153160c3cbdd8319e9641b487dda7b1d957a59f45457f58c88a90437edb0eaf3  demo-scene.fountain
 ```
 
-Open `demo-scene.fdx` in the Mac app, save it without making changes, and the
-checksum should match.
+To check the round trip yourself: download `demo-scene.fdx`, open it in eDraft on
+the Mac, choose File > Save without changing anything, then run
+`shasum -a 256 demo-scene.fdx` on the saved file. The checksum is the same as
+above.
 
----
+## 7. Principles
 
-## Principles
+Nine principles guide the work. When a principle and an easier implementation
+disagree, the principle wins. Three of them:
 
-Nine principles decide arguments in this project: when a principle and a
-convenient implementation disagree, the principle wins. Three of them:
+- **Nothing is lost silently.** When something cannot be kept, the app says so.
+- **The writer's text is theirs.** The app does not rewrite a writer's words to
+  fit its own model.
+- **Measure; do not assume.** Where eDraft has to match another app, we check
+  what that app actually writes.
 
-- **Nothing is lost silently.** When something cannot be preserved, the
-  application says so. A loss the writer is told about is a decision they can
-  make; a loss they discover later is a defect.
-- **The writer's text is theirs.** The application does not rewrite a writer's
-  words to suit its own model.
-- **Measure; do not assume.** Where behaviour has to match another
-  application's, it is established by examining what that application actually
-  produces, not by reasoning about what it probably does.
+Read all nine in the [design principles](docs/design-principles.md).
 
-The [design principles](docs/design-principles.md) carry all nine.
+## 8. Documentation
 
----
-
-## Documentation
-
-- [**Product overview**](docs/product-overview.md) — what eDraft is, and who it
-  is for
-- [**Design principles**](docs/design-principles.md) — the rules the work
-  follows, and why they decide arguments
-- [**Roadmap**](docs/roadmap.md) — what works, what is in progress, what is
-  planned
+- [**Product overview**](docs/product-overview.md) — what eDraft is, and who it is for
+- [**Design principles**](docs/design-principles.md) — the rules the work follows
+- [**Roadmap**](docs/roadmap.md) — what works, what is in progress, what is planned
 - [**FAQ**](docs/faq.md) — common questions
-- [**Development record**](record) — what was built and what was decided, phase by phase
+- [**Development record**](record) — what was built and decided, phase by phase
+- [**Changelog**](CHANGELOG.md) — what changed in each release
 
----
-
-## Support
+## 9. Support and contact
 
 - **A bug, or something wrong in these documents** — open an
-  [issue](https://github.com/yasirdora/edraft/issues) using the bug report form.
-- **A question, or an idea** —
-  [Discussions](https://github.com/yasirdora/edraft/discussions)
-- **A security issue** — please report it privately. See
-  [SECURITY.md](SECURITY.md).
-- **Anything else, including research licences** —
-  [edraft@ysr.design](mailto:edraft@ysr.design)
+  [issue](https://github.com/yasirdora/edraft/issues) with the bug report form.
+- **A question or an idea** — [Discussions](https://github.com/yasirdora/edraft/discussions)
+- **A security issue** — please report it privately; see [SECURITY.md](SECURITY.md).
+- **Anything else, including research licences** — [edraft@ysr.design](mailto:edraft@ysr.design)
 
----
-
-## Contributing
-
-The application source is private, so there is no build to run and no code to
-send a pull request against. Contributions here are documentation corrections
-and bug reports.
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) before opening an issue.
-
----
-
-## This repository
+## 10. This repository and licence
 
 This repository holds eDraft's documentation, example files and images. The
-application source code, the research materials and the internal design
-documents are private.
-
----
-
-## Licence
+app's source code is private, so there is no build to run and no code to send a
+pull request against. Contributions here are documentation corrections and bug
+reports (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 The contents of this repository are proprietary. Copyright © 2025–2026 Yasir
-Dora. All rights reserved.
-
-See [LICENSE](LICENSE) for the terms.
-
----
+Dora. All rights reserved. See [LICENSE](LICENSE) for what you may do with the
+example files.
 
 <p align="center">
   <i>Made by a writer, for writers.</i>

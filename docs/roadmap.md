@@ -1,32 +1,37 @@
 # Roadmap
 
-This page separates what is working from what is being built and what is
+This page separates what works today from what is being built and what is
 planned. It carries no dates: eDraft is developed privately, and a date here
 would be a guess.
 
-Items move up this page only when they are demonstrable.
+Items move up this page only when they work in a released version.
 
-## Working
+## Working (eDraft 2.0, iPhone and Mac)
 
-- Screenplay editing with automatic element formatting as you type.
-- Fountain reading and writing.
-- Final Draft document reading and writing, with a no-edit save returning the
-  original file unchanged.
-- PDF output, and reading back a script eDraft produced.
-- Import from word-processor and plain-text sources.
-- Notes kept on the lines they are about, including through a round trip
-  through other software.
-- A scene navigator and outline derived from the script itself.
-- Omitted scenes: read from production documents, shown as omitted, and kept
+- Screenplay editing, with each element formatted as you type.
+- Final Draft (`.fdx`) and Fountain files, opened and saved in their own
+  format. A Final Draft file saved without edits is the original file, byte for
+  byte.
+- eDraft's own document (`.draft`) and plain text.
+- PDF export and printing. On iPhone, a PDF that eDraft exported opens again as
+  the full script.
+- On iPhone: a PDF or a photo of a printed page becomes a new script you can
+  edit.
+- Notes on a single word or phrase, kept in eDraft, Fountain and Final Draft
+  files.
+- A scene navigator, a cast list and a title page, built from the script itself.
+- Revisions: mark a draft, and an asterisk marks each changed line; revision
+  colours follow the order used in production. On the Mac, also revisions in
+  Final Draft files, Revision Mode, and locked pages (1A, 2–3).
+- Omitted scenes: read from Final Draft files, shown as omitted, and kept
   intact on save.
+- Ideas: record a thought on iPhone and place it in a script later, on iPhone
+  or on the Mac.
+- English and German.
 
 ## In progress
 
-- The production layer: revisions and revision colours, locked pages, and the
-  commands that issue them.
-- The native document format, for work that does not originate as a Final
-  Draft file.
-- Reading paper scripts back in: measuring how well a scanned or photographed
+- Reading paper scripts back in, measured: how well a scanned or photographed
   page comes back as an editable screenplay, with every scene heading, name and
   line of dialogue in its place, and improving it against those measurements.
   The method, the invented test pages and the results will be published here
@@ -36,12 +41,12 @@ Items move up this page only when they are demonstrable.
 
 | Status | Platforms |
 |---|---|
-| On the App Store (preview) | macOS |
-| In development | iPadOS, iOS, Web, Chrome extension |
-| Planned | Windows, Linux, Android |
+| On the App Store | iPhone (iOS 26 or later) and Mac (macOS 26 or later), one free download |
+| Planned | iPad |
 
 ## Planned
 
+- Word (`.docx`) files.
 - Restoring an omitted scene from within the application.
 - A notes report for sharing feedback outside the script.
 - Table read, with a distinct voice per character.

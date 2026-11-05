@@ -1,54 +1,39 @@
 # FAQ
 
-### Is eDraft open source?
+### Is eDraft free?
 
-No. This repository is documentation and images only. The source code,
-research materials and internal design documents are private.
+Yes. eDraft is free on the [App Store](https://apps.apple.com/app/edraft/id6816992261),
+for iPhone and Mac in one download. There are no in-app purchases and no
+account.
 
-### Then why is this repository public?
+### Which devices does it run on?
 
-To describe the product and the thinking behind it in one place that can be
-linked to, without publishing the implementation.
+iPhone (iOS 26 or later) and Mac (macOS 26 or later). An iPad version is
+planned.
 
-### Can I try it?
+### Which languages does it speak?
 
-Not publicly yet. Screenwriting professionals, educators and developers
-interested in research collaboration or a research licence are welcome to get
-in touch: [edraft@ysr.design](mailto:edraft@ysr.design).
+English and German. When your iPhone or Mac is set to German, menus, windows
+and messages are in German. The Mac's Help is still in English.
 
 ### What file formats does it use?
 
-Fountain and Final Draft documents for writing and interchange, PDF for
-sharing, and import from common word-processor and plain-text sources. See
-the [product overview](product-overview.md).
+Final Draft (`.fdx`) and Fountain for writing and exchange, eDraft's own
+document (`.draft`), and plain text. PDF for sharing and printing. On iPhone, a
+PDF or a photo of a printed page can become a new script. See the
+[product overview](product-overview.md).
+
+### Can I open Word files?
+
+Not yet. Support for Word (`.docx`) files is planned. Until then, save the
+document from Word as plain text (`.txt`) and open that in eDraft.
 
 ### Will it change my existing Final Draft files?
 
 Opening a file and saving it without edits returns the original file
 unchanged. Editing a line rewrites that line and leaves the rest alone,
-including production data eDraft has no interface for.
-
-### Does my writing get uploaded anywhere?
-
-No. Your script is a file on your own disk. There is no account to create and
-no eDraft service behind the application, and it does not need a network
-connection to open, edit or save your work.
-
-If you want a script to open on more than one Apple device, iCloud Drive will
-carry it there. That is Apple's, it is optional, and it is the only way a script
-moves between your own machines.
-
-This is a premise, not a setting: features that would require keeping your
-script on someone else's server are not built.
-
-### Who makes eDraft?
-
-A working screenwriter who also researches interface design.
-
-### Which platforms does it run on?
-
-In development for macOS, iPadOS, iOS, the web, and as a Chrome extension.
-Windows, Linux and Android are planned.
+including production data eDraft has no interface for. You can check this
+yourself with the [example scene](../README.md#6-example).
 
 ### Does it work with other screenwriting software?
 
@@ -56,6 +41,41 @@ That is a design requirement rather than a feature: a script should be able to
 pass back and forth between eDraft and other tools and arrive intact in both
 directions.
 
+### Does my writing get uploaded anywhere?
+
+No. Your script is a file on your own device. There is no eDraft service behind
+the application, and it does not need a network connection to open, edit or
+save your work.
+
+If you want a script to open on more than one Apple device, iCloud Drive will
+carry it there. That is Apple's, and it is optional. You can also send a script
+yourself, for example with AirDrop or Mail.
+
+This is a premise, not a setting: features that would require keeping your
+script on someone else's server are not built.
+
+### Is eDraft open source?
+
+No. This repository holds documentation, example files and images only. The
+source code, research materials and internal design documents are private.
+
+### Then why is this repository public?
+
+To describe the product and the thinking behind it in one place that can be
+linked to, without publishing the implementation.
+
+### Who makes eDraft?
+
+A working screenwriter who also researches interface design.
+
+### I found a problem. Where do I report it?
+
+Open an [issue](https://github.com/yasirdora/edraft/issues) with the bug
+report form. A security issue is reported privately: see
+[SECURITY.md](../SECURITY.md).
+
 ### How do I get in touch?
 
-[edraft@ysr.design](mailto:edraft@ysr.design)
+[edraft@ysr.design](mailto:edraft@ysr.design). Screenwriting professionals,
+educators and developers interested in research collaboration or a research
+licence are welcome.

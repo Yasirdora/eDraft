@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="143" height="20" role="img" aria-label="licence: proprietary">
+  <title>licence: proprietary</title>
+  <clipPath id="r"><rect width="143" height="20" rx="3"/></clipPath>
+  <g clip-path="url(#r)">
+    <rect width="58" height="20" fill="#3A3A3C"/>
+    <rect x="58" width="85" height="20" fill="#5E5E63"/>
+  </g>
+  <g fill="#FFFFFF" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" font-size="11" text-rendering="geometricPrecision">
+    <text x="6" y="14" textLength="46" lengthAdjust="spacingAndGlyphs">licence</text>
+    <text x="64" y="14" textLength="73" lengthAdjust="spacingAndGlyphs">proprietary</text>
+  </g>
+</svg>
