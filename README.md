@@ -5,14 +5,15 @@
 <h1 align="center">eDraft</h1>
 
 <p align="center">
-  A free (preview) screenwriting app for iPhone and Mac.<br>
+  A free (preview) screenwriting app for iPhone, iPad and Mac.<br>
   <em>No account. No eDraft server. Your scripts are files on your devices or in your own iCloud Drive.</em>
 </p>
 
 <p align="center">
-  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="iPhone 2.0" src="media/badges/iphone-2.0.svg"></a>
-  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="Mac 2.0" src="media/badges/mac-2.0.svg"></a>
-  <img alt="Requires iOS 26 or macOS 26" src="media/badges/requires.svg">
+  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="iPhone 2.2" src="media/badges/iphone-2.2.svg"></a>
+  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="iPad 2.2" src="media/badges/ipad-2.2.svg"></a>
+  <a href="https://apps.apple.com/app/edraft/id6816992261"><img alt="Mac 2.2" src="media/badges/mac-2.2.svg"></a>
+  <img alt="Requires iOS 26, iPadOS 26 or macOS 26" src="media/badges/requires.svg">
   <img alt="Languages: English and German" src="media/badges/languages.svg">
   <a href="LICENSE"><img alt="Licence: proprietary" src="media/badges/licence.svg"></a>
 </p>
@@ -21,7 +22,8 @@
   <a href="https://apps.apple.com/app/edraft/id6816992261">App Store</a> ·
   <a href="https://edraft.xyz">edraft.xyz</a> ·
   <a href="https://edraft.xyz/help">Help</a> ·
-  <a href="https://edraft.xyz/privacy">Privacy</a>
+  <a href="https://edraft.xyz/privacy">Privacy</a> ·
+  <a href="docs/research.md">Research</a>
 </p>
 
 <p align="center">
@@ -39,10 +41,11 @@ refer to the same part of a script. eDraft is built to keep them. When it saves
 a Final Draft file, it rewrites only the paragraphs you changed; everything else
 in the file, including data eDraft has no screen for, is written back as it was.
 
-eDraft 2.0 is free (preview) on the App Store; see the
-[FAQ](docs/faq.md#is-edraft-free). One download gives you the iPhone and the Mac
-app. Version 2.0 adds German and Ideas, a way to record a thought and place it
-in your script later.
+eDraft 2.2 is free (preview) on the App Store; see the
+[FAQ](docs/faq.md#is-edraft-free). One download gives you the app for iPhone,
+iPad and Mac. Version 2.2 brings eDraft to iPad and gives every scene in the
+Navigator a menu of its own. Version 2.1 gave each person's notes a colour of
+their own and added labels. See the [Changelog](CHANGELOG.md).
 
 ## 2. Key features
 
@@ -51,6 +54,14 @@ in your script later.
 - **Notes on a single word.** Select a word or a phrase and add a note. The note
   stays on those words as you write, and it is kept in eDraft, Fountain and Final
   Draft files.
+- **One colour per person, and labels.** Everyone whose notes carry their name
+  keeps one colour of their own, on the page and in the Navigator. Give a note a
+  label, such as "Rewrite", and show only the notes with one name or one label.
+- **A menu for every scene.** In the Navigator, touch and hold a scene (iPhone
+  and iPad) or Control-click it (Mac) to copy, duplicate or delete it, or add a
+  note to it. In a Final Draft script, omit a scene and restore it there.
+  Details shows a scene's length, running time, word count, characters and
+  notes.
 - **Ideas.** On iPhone, tap the microphone in the library and speak. eDraft saves
   the recording first. Then, if your iPhone has a speech model for your language,
   it writes down the words. Later, place the idea in a script as a note, action,
@@ -82,18 +93,20 @@ The [Help pages](https://edraft.xyz/help) explain each feature.
 | | |
 |---|---|
 | **Price** | Free (preview) |
-| **Platforms** | iPhone and Mac, one App Store download |
-| **Version** | 2.0 (2026-11-04) |
-| **Requires** | iOS 26 or later · macOS 26 or later |
+| **Platforms** | iPhone, iPad and Mac, one App Store download |
+| **Version** | 2.2 (2026-11-14) |
+| **Requires** | iOS 26 or later · iPadOS 26 or later · macOS 26 or later |
 | **Languages** | English, German |
 | **Account** | None |
 | **Where scripts live** | Files on your devices, or in your own iCloud Drive |
 | **Open and save** | Final Draft (`.fdx`), Fountain, plain text, eDraft's own document (`.draft`) |
 | **Export** | PDF, Final Draft, Fountain, plain text; on iPhone also an eDraft document and rich text (RTF) |
-| **On iPhone only** | Turn a PDF or a photo of a printed page into a new script (the text is read from the page) |
+| **On iPhone and iPad** | Turn a PDF or a photo of a printed page into a new script (the text is read from the page) |
 | **Not yet supported** | Word (`.docx`) files — planned |
 
 ## 5. Verification notes
+
+These were counted for version 2.0 and have not been recounted since.
 
 | What | Result |
 |---|---|
@@ -142,16 +155,28 @@ disagree, the principle wins. Three of them:
 
 Read all nine in the [design principles](docs/design-principles.md).
 
-## 8. Documentation
+## 8. Research
+
+The design research behind eDraft is published as a report:
+*The Writer Never Formats: What belongs in a screenplay editor, and where it
+should sit* (version 1.0, 16 November 2026,
+[doi:10.5281/zenodo.24285828](https://doi.org/10.5281/zenodo.24285828)). It asks
+what belongs at the centre of a screenplay editor, what should be optional, and
+what should stay out. The report is licensed CC BY 4.0. The
+[research page](docs/research.md) has the abstract, what the report does not
+claim, and how to cite it.
+
+## 9. Documentation
 
 - [**Product overview**](docs/product-overview.md) — what eDraft is, and who it is for
 - [**Design principles**](docs/design-principles.md) — the rules the work follows
+- [**Research**](docs/research.md) — the design research report, and how to cite it
 - [**Roadmap**](docs/roadmap.md) — what works, what is in progress, what is planned
 - [**FAQ**](docs/faq.md) — common questions
 - [**Development record**](record) — what was built and decided, phase by phase
 - [**Changelog**](CHANGELOG.md) — what changed in each release
 
-## 9. Support and contact
+## 10. Support and contact
 
 - **A bug, or something wrong in these documents** — open an
   [issue](https://github.com/yasirdora/edraft/issues) with the bug report form.
@@ -159,12 +184,13 @@ Read all nine in the [design principles](docs/design-principles.md).
 - **A security issue** — please report it privately; see [SECURITY.md](SECURITY.md).
 - **Anything else, including research licences** — [edraft@ysr.design](mailto:edraft@ysr.design)
 
-## 10. This repository and licence
+## 11. This repository and licence
 
 This repository holds eDraft's documentation, example files and images. The
 app's source code is private, so there is no build to run and no code to send a
 pull request against. Contributions here are documentation corrections and bug
-reports (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+reports (see [CONTRIBUTING.md](CONTRIBUTING.md)). The research report has its
+own licence, CC BY 4.0 (see [Research](docs/research.md#licence)).
 
 The contents of this repository are proprietary. Copyright © 2025–2026 Yasir
 Dora. All rights reserved. See [LICENSE](LICENSE) for what you may do with the

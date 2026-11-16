@@ -3,20 +3,20 @@
 ### Is eDraft free?
 
 Free (preview). eDraft is on the
-[App Store](https://apps.apple.com/app/edraft/id6816992261), for iPhone and Mac
-in one download. There are no in-app purchases and no account.
+[App Store](https://apps.apple.com/app/edraft/id6816992261), for iPhone, iPad
+and Mac in one download. There are no in-app purchases and no account.
 
 A small fee may come later, to sustain the app. eDraft will stay free for
 education.
 
 ### Which devices does it run on?
 
-iPhone (iOS 26 or later) and Mac (macOS 26 or later). An iPad version is
-planned.
+iPhone (iOS 26 or later), iPad (iPadOS 26 or later) and Mac (macOS 26 or
+later).
 
 ### Which languages does it speak?
 
-English and German. When your iPhone or Mac is set to German, menus, windows
+English and German. When your iPhone, iPad or Mac is set to German, menus, windows
 and messages are in German. The Mac's Help is still in English.
 
 ### What file formats does it use?
@@ -60,7 +60,8 @@ script on someone else's server are not built.
 ### Is eDraft open source?
 
 No. This repository holds documentation, example files and images only. The
-source code, research materials and internal design documents are private.
+source code, the research records and internal design documents are private.
+The design research report is public: see [Research](research.md).
 
 ### Then why is this repository public?
 
@@ -70,6 +71,12 @@ linked to, without publishing the implementation.
 ### Who makes eDraft?
 
 A working screenwriter who also researches interface design.
+
+### Is there research behind eDraft?
+
+Yes. The design research is published as a report, *The Writer Never Formats*
+(2026). It is on Zenodo with a DOI and licensed CC BY 4.0. See
+[Research](research.md) for the abstract and how to cite it.
 
 ### I found a problem. Where do I report it?
 

@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "To cite eDraft's design research, please cite the report below."
+title: "eDraft"
+type: software
+authors:
+  - family-names: Dorazahi
+    given-names: Yasir
+url: "https://edraft.xyz"
+preferred-citation:
+  type: report
+  title: "The Writer Never Formats: What belongs in a screenplay editor, and where it should sit"
+  authors:
+    - family-names: Dorazahi
+      given-names: Yasir
+      affiliation: "eDraft, Düsseldorf, Germany"
+  institution:
+    name: eDraft
+    city: Düsseldorf
+    country: DE
+  publisher:
+    name: Zenodo
+  year: 2026
+  month: 11
+  date-published: 2026-11-16
+  version: "1.0"
+  doi: 10.5281/zenodo.24285828
+  url: "https://doi.org/10.5281/zenodo.24285828"
+  license: CC-BY-4.0

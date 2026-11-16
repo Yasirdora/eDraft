@@ -6,7 +6,7 @@ would be a guess.
 
 Items move up this page only when they work in a released version.
 
-## Working (eDraft 2.0, iPhone and Mac)
+## Working (eDraft 2.2, iPhone, iPad and Mac)
 
 - Screenplay editing, with each element formatted as you type.
 - Final Draft (`.fdx`) and Fountain files, opened and saved in their own
@@ -18,13 +18,16 @@ Items move up this page only when they work in a released version.
 - On iPhone: a PDF or a photo of a printed page becomes a new script you can
   edit.
 - Notes on a single word or phrase, kept in eDraft, Fountain and Final Draft
-  files.
+  files. Each person whose notes carry their name keeps one colour; notes take
+  labels.
 - A scene navigator, a cast list and a title page, built from the script itself.
+  Every scene in the navigator has a menu: copy, duplicate, delete, add a note,
+  and details (length, running time, word count, characters, notes).
 - Revisions: mark a draft, and an asterisk marks each changed line; revision
   colours follow the order used in production. On the Mac, also revisions in
   Final Draft files, Revision Mode, and locked pages (1A, 2–3).
 - Omitted scenes: read from Final Draft files, shown as omitted, and kept
-  intact on save.
+  intact on save. A scene can be omitted and restored from the navigator.
 - Ideas: record a thought on iPhone and place it in a script later, on iPhone
   or on the Mac.
 - English and German.
@@ -41,13 +44,11 @@ Items move up this page only when they work in a released version.
 
 | Status | Platforms |
 |---|---|
-| On the App Store | iPhone (iOS 26 or later) and Mac (macOS 26 or later), one free (preview) download |
-| Planned | iPad |
+| On the App Store | iPhone (iOS 26 or later), iPad (iPadOS 26 or later) and Mac (macOS 26 or later), one free (preview) download |
 
 ## Planned
 
 - Word (`.docx`) files.
-- Restoring an omitted scene from within the application.
 - A notes report for sharing feedback outside the script.
 - Table read, with a distinct voice per character.
 - Broader production reporting.

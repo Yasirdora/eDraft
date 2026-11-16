@@ -2,9 +2,116 @@
 
 Notable changes to eDraft are recorded in this file, in the shape described by
 [Keep a Changelog 1.1.0](https://keepachangelog.com/en/1.1.0/). eDraft is one App Store
-download for iPhone and Mac, free (preview); each release says which of the two it
+download for iPhone, iPad and Mac, free (preview); each release says which devices it
 reached.
 No release so far has supported Word (`.docx`) files; support is planned.
+
+## 2.2 - 2026-11-14 (iPhone, iPad and Mac)
+
+Version 2.2 brings eDraft to iPad and gives every scene in the Navigator a menu
+of its own.
+
+### Added
+
+- **iPad.** eDraft runs on iPad, in portrait and landscape. The library uses the
+  full width of the screen.
+- **A menu for every scene.** In the Navigator, touch and hold a scene (iPhone
+  and iPad), or hold the pointer over it and click More (…) or Control-click it
+  (Mac). Select, copy, duplicate or delete the scene, or add a note to it. In a
+  Final Draft script you can also omit a scene there and restore it; a Final
+  Draft script with scene numbers has Omit Scene in place of Delete Scene.
+- **Scene details.** Details, in the same menu, shows a scene's length, running
+  time, word count, characters and notes.
+- **Ideas badge.** On iPhone and iPad, a badge on the Ideas button counts the
+  ideas for the open script that you have not opened yet. On the Mac, while the
+  Ideas panel is closed, the Ideas button in the toolbar shows a badge when the
+  open script has an idea you have not opened yet.
+- **iPhone and iPad:** while you read a script, tap the microphone at the bottom
+  right to record an idea. It is filed for that script and for the scene at the
+  top of the screen.
+- **Mac:** the scene commands are also there when you Control-click a scene
+  heading on the page.
+
+### Changed
+
+- In Settings, under Notes, you choose the colour of your notes from a menu that
+  shows each colour with its name.
+- Note colours: Blue has a new shade. On the Dark Page, Purple, Pink, Indigo and
+  Cyan have new shades too.
+- **iPhone and iPad:** while you read a script, the Ideas button is at the top,
+  beside the Navigator button, and the page runs to the bottom edge of the
+  screen.
+- **iPhone and iPad:** Omit, Restore, Duplicate and Delete are one step each for
+  Undo.
+- **iPhone and iPad:** in the library, the More menu has one row to switch
+  between the list and the gallery. In a script, the More menu no longer has
+  Reading Mode; to stop writing, tap the checkmark, as before.
+- **Mac:** the Navigator has a new header. The name of the list is at the top,
+  with the Script Info button and the filter beside it, and the search field is
+  always shown. Script Info shows the script's pages, running time and words;
+  the line at the bottom counts its scenes and locations. The Search and Filter
+  buttons are no longer in the toolbar, and the scissors button is gone.
+- **Mac:** the current scene in the Navigator is marked with a grey bar, and its
+  text keeps its colour.
+- **Mac:** when you show or hide Ideas and the screen has room, the window grows
+  or shrinks by the width of the panel, and the page keeps its size.
+
+### Fixed
+
+- **Mac:** giving a new label to a note you had not written in yet could remove
+  the note. The note now stays and gets its label.
+- **Mac:** for a recording in which no words were found, Action and Dialogue stay
+  dimmed.
+
+## 2.1 - 2026-11-10 (iPhone and Mac)
+
+Version 2.1 gives each person's notes their own colour, adds labels, and works
+better with VoiceOver and Voice Control.
+
+### Added
+
+- **One colour per person.** In a script, everyone whose notes carry their name
+  keeps one colour of their own: on the page, in the notes sheet (iPhone) or on
+  the note card (Mac), and in the Navigator. Choose your colour in Settings >
+  Notes, or leave it on Automatic. A colour you choose is for that device.
+- **Labels.** Give a note a label of your own, such as "Rewrite". In the
+  Navigator's Notes list, tap or click a name or a label to see only the
+  matching notes.
+- **German times of day.** Once you use TAG, NACHT, MORGEN, ABEND or DÄMMERUNG
+  in an INT. or EXT. heading, the suggestions offer them on your other INT. and
+  EXT. headings too.
+- **Mac:** Focus keeps a whole scene bright while the cursor is in its scene
+  heading, and a whole speech bright while it is in a character name,
+  parenthetical or dialogue.
+- **Mac:** you can change your name and role in eDraft > Settings… > Notes.
+
+### Changed
+
+- An eDraft note keeps its colour and label in eDraft, Fountain and Final Draft
+  files. In a Final Draft file, a colour Final Draft itself set on a note is
+  kept, and shown as a small square.
+- When eDraft saves or exports a Final Draft file, another person's note keeps
+  their name. Your name is no longer written in front of theirs.
+- The title page keeps the title as you type it, in its Title field and in your
+  files. PDF and print still show it in capitals. Changes to the title page of a
+  Final Draft file are saved into that file, in its own style.
+- A German time of day before CONTINUOUS counts as the heading's time of day.
+- When the kind of line changes as you type, VoiceOver says the new kind, such
+  as Action or Character. For a note mark, it says whose note it is.
+- **iPhone:** with VoiceOver, a scene row in the Navigator is one item, and a
+  double tap opens the scene. For Voice Control, more buttons and rows go by the
+  words shown on them.
+- **Mac:** note marks are small round dots in the left margin, and they are
+  easier to click. The note card grows with its notes, up to a set height.
+- Ideas: when no words are found in a recording, it shows "No words found", and
+  you can still place it as a note.
+
+### Fixed
+
+- Renaming a character keeps your cursor where it was.
+- **iPhone:** ideas that arrive through iCloud appear while eDraft is open.
+- **iPhone:** a script deleted from iCloud Drive in the Files app, outside
+  eDraft, disappears from your library by itself.
 
 ## 2.0 - 2026-11-04 (iPhone and Mac)
 
