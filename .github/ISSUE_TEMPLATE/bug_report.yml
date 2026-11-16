@@ -25,8 +25,8 @@ body:
     id: version
     attributes:
       label: Version and platform
-      description: Which build, and on what — macOS 26, iPadOS 26, the web, the Chrome extension?
-      placeholder: "e.g. 0.1 build 42, macOS 26.1"
+      description: Which version of eDraft, on which device, and which system version? You find the version in Settings (iPhone and iPad) or in eDraft > About eDraft (Mac).
+      placeholder: "e.g. 2.2, iPad, iPadOS 26.1"
     validations:
       required: false
 

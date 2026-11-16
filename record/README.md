@@ -14,3 +14,4 @@ phase it describes, not the date it was written.
 | August 2026 | [The private beta](2026-08-the-private-beta.md) |
 | 5 September 2026 | [Shared architecture](2026-09-shared-architecture.md) |
 | October 2026 | [The preview](2026-10-the-preview.md) |
+| November 2026 | [iPad, and the research](2026-11-ipad-and-the-research.md) |

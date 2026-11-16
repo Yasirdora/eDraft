@@ -43,9 +43,9 @@ general-purpose word processor.
   carry preserved.
 - **eDraft's own document** (`.draft`), and **plain text** for bringing existing
   material in.
-- **PDF**, for sharing and printing. On iPhone, a PDF or a photo of a printed
-  page becomes a new script, and a PDF eDraft exported opens again as the full
-  script.
+- **PDF**, for sharing and printing. On iPhone and iPad, a PDF or a photo of a
+  printed page becomes a new script, and a PDF eDraft exported opens again as
+  the full script.
 
 Word (`.docx`) files are not supported yet; support is planned.
 

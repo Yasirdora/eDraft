@@ -2,10 +2,13 @@
 
 ## Supported versions
 
-No version of eDraft has been publicly released. There is no shipped build to
-patch, and no released version receives security updates.
+eDraft is on the App Store for iPhone, iPad and Mac. Fixes come as a new
+version on the App Store.
 
-The private channel below exists now, before it is needed.
+| Version | Supported |
+|---|---|
+| 2.2, the latest | Yes |
+| Earlier versions | No. Update to the latest version from the App Store. |
 
 ## Reporting a vulnerability
 
@@ -23,14 +26,14 @@ be told when it is in, and when the details may be discussed publicly.
 
 ## Scope
 
-In scope, once a build exists:
+In scope:
 
 - the eDraft applications, on any platform they are released for;
 - the handling of a document file, including anything a hostile file could
   cause on being opened;
 - anything that would let a script leave the writer's machine.
 
-In scope today, in this repository:
+Also in scope, in this repository:
 
 - the [example files](examples) — a sample file that behaves maliciously when
   opened is a security report, not a documentation issue.

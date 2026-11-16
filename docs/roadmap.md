@@ -13,10 +13,10 @@ Items move up this page only when they work in a released version.
   format. A Final Draft file saved without edits is the original file, byte for
   byte.
 - eDraft's own document (`.draft`) and plain text.
-- PDF export and printing. On iPhone, a PDF that eDraft exported opens again as
-  the full script.
-- On iPhone: a PDF or a photo of a printed page becomes a new script you can
-  edit.
+- PDF export and printing. On iPhone and iPad, a PDF that eDraft exported
+  opens again as the full script.
+- On iPhone and iPad: a PDF or a photo of a printed page becomes a new script
+  you can edit.
 - Notes on a single word or phrase, kept in eDraft, Fountain and Final Draft
   files. Each person whose notes carry their name keeps one colour; notes take
   labels.
@@ -28,8 +28,8 @@ Items move up this page only when they work in a released version.
   Final Draft files, Revision Mode, and locked pages (1A, 2–3).
 - Omitted scenes: read from Final Draft files, shown as omitted, and kept
   intact on save. A scene can be omitted and restored from the navigator.
-- Ideas: record a thought on iPhone and place it in a script later, on iPhone
-  or on the Mac.
+- Ideas: record a thought on iPhone or iPad and place it in a script later, on
+  iPhone, iPad or the Mac.
 - English and German.
 
 ## In progress
@@ -45,6 +45,7 @@ Items move up this page only when they work in a released version.
 | Status | Platforms |
 |---|---|
 | On the App Store | iPhone (iOS 26 or later), iPad (iPadOS 26 or later) and Mac (macOS 26 or later), one free (preview) download |
+| In test | Apple Vision Pro |
 
 ## Planned
 

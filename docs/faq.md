@@ -12,18 +12,18 @@ education.
 ### Which devices does it run on?
 
 iPhone (iOS 26 or later), iPad (iPadOS 26 or later) and Mac (macOS 26 or
-later).
+later). A version for Apple Vision Pro is in test.
 
 ### Which languages does it speak?
 
-English and German. When your iPhone, iPad or Mac is set to German, menus, windows
-and messages are in German. The Mac's Help is still in English.
+English and German. When your iPhone, iPad or Mac is set to German, menus, windows,
+messages and the Mac's Help are in German.
 
 ### What file formats does it use?
 
 Final Draft (`.fdx`) and Fountain for writing and exchange, eDraft's own
-document (`.draft`), and plain text. PDF for sharing and printing. On iPhone, a
-PDF or a photo of a printed page can become a new script. See the
+document (`.draft`), and plain text. PDF for sharing and printing. On iPhone and
+iPad, a PDF or a photo of a printed page can become a new script. See the
 [product overview](product-overview.md).
 
 ### Can I open Word files?

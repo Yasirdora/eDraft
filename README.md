@@ -62,14 +62,14 @@ their own and added labels. See the [Changelog](CHANGELOG.md).
   note to it. In a Final Draft script, omit a scene and restore it there.
   Details shows a scene's length, running time, word count, characters and
   notes.
-- **Ideas.** On iPhone, tap the microphone in the library and speak. eDraft saves
-  the recording first. Then, if your iPhone has a speech model for your language,
-  it writes down the words. Later, place the idea in a script as a note, action,
-  dialogue or a new scene, on the iPhone or on the Mac (View > Ideas). Ideas
-  reach the Mac through your own iCloud. You can also ask Siri: "Add an idea in
-  eDraft".
-- **German.** When your iPhone or Mac is set to German, menus, windows and
-  messages are in German (the Mac's Help is still in English). INNEN. and
+- **Ideas.** On iPhone or iPad, tap the microphone in the library, or while you
+  read a script, and speak. eDraft saves the recording first. Then, if your
+  device has a speech model for your language, it writes down the words. Later,
+  place the idea in a script as a note, action, dialogue or a new scene, on the
+  iPhone, the iPad or the Mac (View > Ideas). Ideas reach your other devices
+  through your own iCloud. You can also ask Siri: "Add an idea in eDraft".
+- **German.** When your iPhone, iPad or Mac is set to German, menus, windows,
+  messages and the Mac's Help are in German. INNEN. and
   AUSSEN. start a scene heading, and the writing suggestions offer them. An
   eDraft script can print (MEHR) and (FORTS.) instead of (MORE) and (CONT'D). A
   new installation in a German-speaking region (Germany, Austria, Switzerland,
@@ -96,28 +96,29 @@ The [Help pages](https://edraft.xyz/help) explain each feature.
 | **Platforms** | iPhone, iPad and Mac, one App Store download |
 | **Version** | 2.2 (2026-11-14) |
 | **Requires** | iOS 26 or later · iPadOS 26 or later · macOS 26 or later |
+| **In test** | A version for Apple Vision Pro |
 | **Languages** | English, German |
 | **Account** | None |
 | **Where scripts live** | Files on your devices, or in your own iCloud Drive |
 | **Open and save** | Final Draft (`.fdx`), Fountain, plain text, eDraft's own document (`.draft`) |
-| **Export** | PDF, Final Draft, Fountain, plain text; on iPhone also an eDraft document and rich text (RTF) |
+| **Export** | PDF, Final Draft, Fountain, plain text; on iPhone and iPad also an eDraft document and rich text (RTF) |
 | **On iPhone and iPad** | Turn a PDF or a photo of a printed page into a new script (the text is read from the page) |
 | **Not yet supported** | Word (`.docx`) files — planned |
 
 ## 5. Verification notes
 
-These were counted for version 2.0 and have not been recounted since.
+These were counted for version 2.2.
 
 | What | Result |
 |---|---|
-| Interface strings with a German translation | 911 of 911 (counted) ¹ |
-| Swift tests in the app's code | 3,329 in 295 files (counted, not run for this page) ² |
+| Interface strings with a German translation | 983 of 983 (counted) ¹ |
+| Swift tests in the app's code | 3,861 in 348 files (counted, not run for this page) ² |
 | The example `.fdx`, opened and saved without edits | Same file, byte for byte: 2,528 bytes in, 2,528 bytes out ³ |
 
-¹ Counted in the string catalogs of the code that shipped as 2.0, Siri phrases
-included. The Mac's Help is still in English.<br>
-² XCTest methods and Swift Testing functions in the code that shipped as 2.0.<br>
-³ Checked with the code that shipped as 2.0, through the open-and-save path the
+¹ Counted in the string catalogs of the code that shipped as 2.2, Siri phrases
+included. The Mac's Help is a German book of its own and is not counted here.<br>
+² XCTest methods and Swift Testing functions in the code that shipped as 2.2.<br>
+³ Checked with the code that shipped as 2.2, through the open-and-save path the
 app uses. You can check it yourself: see *Example*.
 
 ## 6. Example

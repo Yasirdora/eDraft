@@ -9,7 +9,7 @@ The writing surface: element formatting as it is typed, Tab and Return
 choreography, character prediction, find and print. The title page as a sheet,
 the character thread as the Cast tab, the scene navigator alongside the page.
 Interchange in both directions with Final Draft documents and Fountain, and
-export to PDF and Word.
+export to PDF and plain text.
 
 Documents are files on the writer's disk. On Apple platforms they can live in
 iCloud Drive so that one script opens on more than one device; the choice is
